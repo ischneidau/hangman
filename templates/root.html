@@ -1,0 +1,13 @@
+<html>
+<h2>Hangman</h2>
+<p>Enter a word: </p>
+<form method="POST" action="/game">
+    {{ form.word.label }} {{ form.word(size=20) }}
+    <br/>
+    {{ form.submit }}
+</form>
+
+
+
+
+</html>
